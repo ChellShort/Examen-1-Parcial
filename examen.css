@@ -1,12 +1,17 @@
+body{
+    background:rgb(69, 50, 50);
+}
+
 .A1{
     color: #201976;
-    background: green;
     grid-column: 1/3;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .A2{
-    background: yellow;
     color: black;
     grid-column: 1/3;
     margin: 1%;
@@ -17,24 +22,33 @@
 }
 
 .A3{
-    background: brown;
     grid-column: 1/3;
+    text-align: center;
+    color: rgb(0, 0, 0);
 }
 
 .grid-layout{
     position: absolute;
     width: 98%;
-    top:0;
+    top:12%;
     left:0;
     margin: 0 auto;
-    background:rgb(43, 52, 130);
+    background:rgb(129, 129, 129);
     display: grid;
     grid-template-columns: 50% 50% 50%;
     grid-template-rows: auto auto auto auto;
     padding: 1% 1% 1% 1%;
     justify-content: stretch;
     align-items: center;
-    
+}
+
+.titulo{
+    background: black;
+    padding: 0.2%;
+    width: 20%;
+    border-radius: 10px 10px 10px 10px;
+    background: white;
+    border:rgb(0, 0, 0) solid 1px;
 }
 
 li{
@@ -48,10 +62,12 @@ ul{
     background: white;
     text-decoration-line: none;
     list-style: none;
+    border-radius: 10px 10px 10px 10px;
+    border:rgb(0, 0, 0) solid 1px;
 }
 
 .Formulario{
     width: 50%;
-    background: #201976;
+    background: #ffffff;
     padding: 1%;
 }
